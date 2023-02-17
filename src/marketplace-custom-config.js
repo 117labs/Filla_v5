@@ -85,9 +85,10 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'smoke', label: 'Smoke' },
-        { key: 'electric', label: 'Electric' },
-        { key: 'wood', label: 'Wood' },
+        { key: 'smoke', label: 'PLA' },
+        { key: 'asa', label: 'ASA' },
+        { key: 'electric', label: 'ABS' },
+        { key: 'wood', label: 'PET' },
         { key: 'other', label: 'Other' },
       ],
     },
@@ -110,35 +111,35 @@ export const filters = [
       options: [
         {
           key: 'towels',
-          label: 'Towels',
+          label: 'Print ASAP',
         },
         {
           key: 'bathroom',
-          label: 'Bathroom',
+          label: 'This is a gift',
         },
         {
           key: 'swimming_pool',
-          label: 'Swimming pool',
+          label: 'Prototyping',
         },
         {
           key: 'own_drinks',
-          label: 'Own drinks allowed',
+          label: 'Food use',
         },
         {
           key: 'jacuzzi',
-          label: 'Jacuzzi',
+          label: 'Multiple prints',
         },
         {
           key: 'audiovisual_entertainment',
-          label: 'Audiovisual entertainment',
+          label: 'Design help',
         },
         {
           key: 'barbeque',
-          label: 'Barbeque',
+          label: 'Needs assembly',
         },
         {
           key: 'own_food_allowed',
-          label: 'Own food allowed',
+          label: 'Anonymous purchase',
         },
       ],
     },
